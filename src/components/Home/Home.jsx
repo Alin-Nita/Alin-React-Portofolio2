@@ -29,9 +29,10 @@ const Home = (props) => {
             Good {greetingTime} <br />
           </h1>
         </header>
-        {/* <section className="button-section">
-          <Button buttonText={"Lets Go"} isSecondary={true} />
-          <Button buttonText={"Explore"} />
+        {/* <section className="section">
+          <h1> I'm Alin <h1>
+          <br>
+          <h2> a Junior Full-Stack Developer <h2>
         </section> */}
       </div>
     </>
