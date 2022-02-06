@@ -37,7 +37,6 @@ const Carousel = (props) => {
     },
   ];
 
-  // const { imagesArr } = props;
   const [counter, setCounter] = useState(0);
 
   const handleIncrement = () => {
