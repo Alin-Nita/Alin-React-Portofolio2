@@ -4,7 +4,7 @@ import picture from "../../assets/images/Picture1.jpeg";
 const AboutMe = () => {
   return (
     <div id="about" className="about">
-      <h2>About me</h2>
+      <h1>About me</h1>
       <div className="about__container">
         <img
           className="about__container--img"

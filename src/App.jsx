@@ -5,15 +5,22 @@ import Home from "./components/Home/Home";
 import AboutMe from "./components/About me/AboutMe";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Nav from "./components/Nav/Nav";
 
 const App = () => {
   return (
     <>
-      <Home />
-      <Carousel />
-      <AboutMe />
-      <Skills />
-      <Contact />
+      <Router>
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Carousel />} />
+          <Route path="/about" element={<AboutMe />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </>
   );
 };

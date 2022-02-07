@@ -29,9 +29,11 @@
 
   &__heading {
     margin-top: 8rem;
+    color: $color-black;
   }
   &__subheading {
     margin-top: 3.7em;
+    color: $color-black;
   }
 }
 
@@ -59,7 +61,7 @@
       }
 
       &__heading {
-        margin-top: 1.5em;
+        margin-top: 1.8em;
       }
     }
   }
@@ -72,10 +74,12 @@
       margin-top: 0.1rem;
       margin-right: 19rem;
       grid-template-areas: "heading";
+      color: $color-black;
     }
     &__subheading {
       margin-top: 4.5em;
       margin-left: 15rem;
+      color: $color-black;
     }
   }
 }

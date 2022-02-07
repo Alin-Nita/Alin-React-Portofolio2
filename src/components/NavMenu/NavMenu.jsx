@@ -1,5 +1,6 @@
 import "./NavMenu.scss";
 import cross from "../../assets/images/white-cross.png";
+import { Link } from "react-router-dom";
 
 const NavMenu = (props) => {
   const { toggleNav } = props;
@@ -16,29 +17,29 @@ const NavMenu = (props) => {
           />
           <ul onClick={toggleNav} className="nav-menu__links">
             <li className="nav-menu__links__list">
-              <a className="nav-menu__links--link" href="#home">
+              <Link className="nav-menu__links--link" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-menu__links__list">
-              <a className="nav-menu__links--link" href="#carousel">
+              <Link className="nav-menu__links--link" to="/projects">
                 Projects
-              </a>
+              </Link>
             </li>
             <li className="nav-menu__links__list">
-              <a className="nav-menu__links--link" href="#AboutMe">
+              <Link className="nav-menu__links--link" to="/AboutMe">
                 About me
-              </a>
+              </Link>
             </li>
             <li className="nav-menu__links__list">
-              <a className="nav-menu__links--link" href="#skills">
+              <Link className="nav-menu__links--link" to="/skills">
                 Skills
-              </a>
+              </Link>
             </li>
             <li className="nav-menu__links__list">
-              <a className="nav-menu__links--link" href="./contact">
+              <Link className="nav-menu__links--link" to="/contact">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

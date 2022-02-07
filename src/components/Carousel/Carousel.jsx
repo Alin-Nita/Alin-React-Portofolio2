@@ -56,7 +56,7 @@ const Carousel = (props) => {
   };
 
   return (
-    <>
+    <div className="projects" id="projects">
       <div className="carousel">
         <img
           src={leftArrow}
@@ -81,7 +81,7 @@ const Carousel = (props) => {
       <div>
         <p className="carousel__text">{imagesArr[counter].text}</p>
       </div>
-    </>
+    </div>
   );
 };
 

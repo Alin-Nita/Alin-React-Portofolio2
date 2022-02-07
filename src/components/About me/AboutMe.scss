@@ -1,9 +1,12 @@
 @use "../../assets/images/sass/variables" as *;
 
+h1 {
+  color: $color-primary;
+}
 .about {
   margin-top: 3rem;
   margin-left: 2.5rem;
-  height: 89vh;
+  height: 80vh;
   width: 80vw;
   display: flex;
   flex-direction: column;
@@ -39,8 +42,8 @@
 @media screen and (min-width: 992px) {
   .about {
     margin-left: 4rem;
-    border-left: 17px solid $color-secondary;
-    border-right: 17px solid $color-primary;
+    border-left: 10px solid $color-secondary;
+    border-right: 10px solid $color-primary;
     &__container {
       width: 80%;
       &--img {

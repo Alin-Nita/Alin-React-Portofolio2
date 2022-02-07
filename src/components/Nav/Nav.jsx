@@ -2,6 +2,7 @@ import "./Nav.scss";
 import menu from "../../assets/images/menu-icon.png";
 import NavMenu from "../NavMenu/NavMenu";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [showNav, setShowNav] = useState(false);
@@ -20,11 +21,11 @@ const Nav = () => {
     }
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", listenScrollEvent);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", listenScrollEvent);
 
-    return () => window.removeEventListener("scroll", listenScrollEvent);
-  }, []);
+  //   return () => window.removeEventListener("scroll", listenScrollEvent);
+  // }, []);
 
   console.log(showNav);
   return (
@@ -36,29 +37,29 @@ const Nav = () => {
       <div className={border}>
         <ul className="nav__content__links">
           <li className="nav__content__links__list">
-            <a className="nav__content__links--link" href="#home">
+            <Link className="nav__content__links--link" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav__content__links__list">
-            <a className="nav__content__links--link" href="#projects">
+            <Link className="nav__content__links--link" to="/projects">
               Projects
-            </a>
+            </Link>
           </li>
           <li className="nav__content__links__list">
-            <a className="nav__content__links--link" href="#about">
+            <Link className="nav__content__links--link" to="/about">
               About me
-            </a>
+            </Link>
           </li>
           <li className="nav__content__links__list">
-            <a className="nav__content__links--link" href="#skills">
+            <Link className="nav__content__links--link" to="/skills">
               Skills
-            </a>
+            </Link>
           </li>
           <li className="nav__content__links__list">
-            <a className="nav__content__links--link" href="#contact">
+            <Link className="nav__content__links--link" to="/contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
