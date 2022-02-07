@@ -63,8 +63,10 @@ const Carousel = (props) => {
         onClick={handleDecrement}
         className="carousel__arrow carousel__arrow--left"
       />
-      <img src={imagesArr[counter].photo} alt="" className="carousel__image" />
+
+      <img clasName="carousel__image" src={imagesArr[counter].photo} alt="" />
       <p>{imagesArr[counter].text}</p>
+
       <img
         src={rightArrow}
         alt="right arrow"

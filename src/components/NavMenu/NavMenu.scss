@@ -1,0 +1,61 @@
+@use "../../assets/images/sass/variables" as *;
+
+.nav-menu {
+  background-color: $color-white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+
+  &__links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    gap: 3.7rem;
+    &--link {
+      color: $color-black;
+      text-decoration: none;
+      font-size: 40px;
+
+      &:hover {
+        background-color: $color-secondary;
+        border-radius: 5px;
+        transition: background-color 1s, border-radius 1s;
+        border-color: $color-lightYellow;
+        color: $color-lightWhite;
+        box-shadow: 0 0.5em 0.5em -0.4em $color-lightYellow;
+        cursor: pointer;
+      }
+    }
+    &__list {
+      margin-top: 3rem;
+    }
+  }
+
+  &__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__cross {
+    position: fixed;
+    width: 3rem;
+    top: 2.5rem;
+    right: 2.5rem;
+    background-color: $color-secondary;
+    border-radius: 40px;
+    padding: 0.5rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

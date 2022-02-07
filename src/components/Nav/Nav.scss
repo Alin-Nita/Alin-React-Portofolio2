@@ -1,0 +1,59 @@
+@use "../../assets/images/sass/variables" as *;
+
+.nav {
+  position: fixed;
+  width: 3rem;
+  top: 2.5rem;
+  right: 5vw;
+  background-color: $color-white;
+  padding: 0.5rem;
+}
+
+.nav__content {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .nav {
+    display: none;
+  }
+
+  .nav__content {
+    display: block;
+    position: fixed;
+    right: 10.2vw;
+    background-color: $color-white;
+    width: 79.5%;
+    margin-bottom: 2rem;
+    &__links {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      gap: 1rem;
+      &--link {
+        color: $color-black;
+        text-decoration: none;
+        font-size: 25px;
+        margin-right: 0.5rem;
+      }
+      &--link:hover {
+        color: $color-primary;
+        border-bottom: 5px solid $color-primary;
+      }
+      &__list {
+        padding-top: 0.1rem;
+      }
+    }
+  }
+  .noborer {
+    border: none;
+  }
+
+  .border {
+    border: 0.3vw solid $color-primary;
+    right: 10.2vw;
+    width: 79%;
+    border-radius: 5px;
+  }
+}

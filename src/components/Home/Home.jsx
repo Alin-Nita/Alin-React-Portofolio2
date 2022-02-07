@@ -4,8 +4,6 @@ import sun from "../../assets/images/sun.png";
 import moon from "../../assets/images/moon.png";
 
 const Home = (props) => {
-  const { user } = props;
-
   const currentHour = new Date().getHours();
   let greetingImg = sunrise;
   let greetingTime = "Morning!";
@@ -29,10 +27,11 @@ const Home = (props) => {
             Good {greetingTime} <br />
           </h1>
         </header>
-        <section>
-          <h1 className="heading"> I'm Alin </h1>
-          <br />
-          <h2 className="subheading"> a Junior Full-Stack Developer </h2>
+        <section className="presentation">
+          <h1 className="presentation__heading"> I'm Alin </h1>
+          <h1 className="presentation__subheading">
+            a Junior Full-Stack Developer
+          </h1>
         </section>
       </div>
     </>
