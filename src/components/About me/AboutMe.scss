@@ -1,0 +1,59 @@
+@use "../../assets/images/sass/variables" as *;
+
+.about {
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+  height: 89vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $color-secondary;
+  border-left: 10px solid $color-secondary;
+  border-right: 10px solid $color-primary;
+
+  &__container {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    width: 70vw;
+    &--img {
+      height: 200px;
+      width: 200px;
+      object-fit: fill;
+      border-radius: 50%;
+      border: 5px solid $color-primary;
+      margin-bottom: 0.25rem;
+    }
+    &--highlighted {
+      margin-top: 4rem;
+      color: $color-primary;
+      margin: 0;
+      font-size: 25px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about {
+    margin-left: 4rem;
+    border-left: 17px solid $color-secondary;
+    border-right: 17px solid $color-primary;
+    &__container {
+      width: 80%;
+      &--img {
+        height: 200px;
+        width: 200px;
+        object-fit: fill;
+        border-radius: 50%;
+        border: 5px solid $color-primary;
+        margin-bottom: 2rem;
+      }
+      &--highlighted {
+        font-size: 30px;
+      }
+    }
+  }
+}

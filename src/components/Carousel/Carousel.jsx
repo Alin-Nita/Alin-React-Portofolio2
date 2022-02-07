@@ -13,23 +13,23 @@ const Carousel = (props) => {
   const imagesArr = [
     {
       photo: Project1,
-      text: "calculator",
+      text: "Java Script Calculator - This project involved wiring up a simple calculator using Java Script Defining DOM elements as variables so that I could iterate over them and add event listeners IF ELSE statements - used to perform the operations.Add event listeners and looping through different buttons type in order to perform different tasks.Define different functions and call them at a specific time",
     },
     {
       photo: Project2,
-      text: "Game",
+      text: "Hangman Game cover - ",
     },
     {
       photo: Project3,
-      text: "Still game",
+      text: "This project was all about constructing a functional game while strenghtening knowledges about html, css but focusing in particular on the Java Script part. Giving the fact that I had to build everything from scratch gaved me the oportunity to have a better understanding of how important it is to have a solid foundation to build on and also how important the pseudocode is. I found this challenge a bit hard with a lot of problems to overcome but also enjoyed solving them.",
     },
     {
       photo: Project4,
-      text: "Morse code",
+      text: "This is a simple translator from english to morse code written in Java Script ; The lesson itself focuses not only on developing and implementing JS but also on discovering the world of TDD, and how to use and apply it; Tests were written using Jest.",
     },
     {
       photo: Project5,
-      text: "CRUD-API",
+      text: "To solidify the concepts I have covered in Java, Spring, MySQL, & React I built a full-stack web application which combines these technologies. The application needed to be able to CRUD a particular database and was based on a 'course and students' structure.",
     },
     {
       photo: Project6,
@@ -56,24 +56,32 @@ const Carousel = (props) => {
   };
 
   return (
-    <div className="carousel">
-      <img
-        src={leftArrow}
-        alt="left arrow"
-        onClick={handleDecrement}
-        className="carousel__arrow carousel__arrow--left"
-      />
+    <>
+      <div className="carousel">
+        <img
+          src={leftArrow}
+          alt="left arrow"
+          onClick={handleDecrement}
+          className="carousel__arrow carousel__arrow--left"
+        />
 
-      <img clasName="carousel__image" src={imagesArr[counter].photo} alt="" />
-      <p>{imagesArr[counter].text}</p>
+        <img
+          src={imagesArr[counter].photo}
+          alt=""
+          className="carousel__image"
+        />
 
-      <img
-        src={rightArrow}
-        alt="right arrow"
-        onClick={handleIncrement}
-        className="carousel__arrow carousel__arrow--right"
-      />
-    </div>
+        <img
+          src={rightArrow}
+          alt="right arrow"
+          onClick={handleIncrement}
+          className="carousel__arrow carousel__arrow--right"
+        />
+      </div>
+      <div>
+        <p className="carousel__text">{imagesArr[counter].text}</p>
+      </div>
+    </>
   );
 };
 

@@ -21,12 +21,12 @@ const NavMenu = (props) => {
               </a>
             </li>
             <li className="nav-menu__links__list">
-              <a className="nav-menu__links--link" href="#projects">
+              <a className="nav-menu__links--link" href="#carousel">
                 Projects
               </a>
             </li>
             <li className="nav-menu__links__list">
-              <a className="nav-menu__links--link" href="#about">
+              <a className="nav-menu__links--link" href="#AboutMe">
                 About me
               </a>
             </li>
@@ -36,7 +36,7 @@ const NavMenu = (props) => {
               </a>
             </li>
             <li className="nav-menu__links__list">
-              <a className="nav-menu__links--link" href="#contact">
+              <a className="nav-menu__links--link" href="./contact">
                 Contact
               </a>
             </li>

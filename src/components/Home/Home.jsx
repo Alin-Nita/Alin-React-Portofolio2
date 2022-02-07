@@ -1,4 +1,5 @@
 import "./Home.scss";
+import Nav from "../Nav/Nav";
 import sunrise from "../../assets/images/sunrise.png";
 import sun from "../../assets/images/sun.png";
 import moon from "../../assets/images/moon.png";
@@ -21,6 +22,7 @@ const Home = (props) => {
   return (
     <>
       <div className="home">
+        <Nav />
         <header className="greeting">
           <img src={greetingImg} className="greeting__img" alt={greetingTime} />
           <h1 className="greeting__heading">
