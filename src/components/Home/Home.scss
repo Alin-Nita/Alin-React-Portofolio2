@@ -1,7 +1,7 @@
 @use "../../assets/images/sass/variables" as *;
 
 .home {
-  margin-top: 2em;
+  margin-top: 6em;
   color: $color-black;
   height: 100%;
   width: 100%;
@@ -43,6 +43,7 @@
     margin: 10em auto;
     gap: 25px 100px;
     border-bottom: 1px solid black;
+    border-left: 1px solid black;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1.2fr 0.8fr;
@@ -71,8 +72,8 @@
     font-size: 1.5em;
 
     &__heading {
-      margin-top: 0.1rem;
-      margin-right: 19rem;
+      margin-top: 0.9rem;
+      margin-right: 17rem;
       grid-template-areas: "heading";
       color: $color-black;
     }

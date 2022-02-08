@@ -8,6 +8,7 @@ import Project3 from "../../assets/images/Game.png";
 import Project4 from "../../assets/images/Morse-code.png";
 import Project5 from "../../assets/images/CRUD-API.png";
 import Project6 from "../../assets/images/Client-project.png";
+import Project7 from "../../assets/images/Beers-API.png";
 
 const Carousel = (props) => {
   const imagesArr = [
@@ -33,7 +34,11 @@ const Carousel = (props) => {
     },
     {
       photo: Project6,
-      text: "Client-project",
+      text: "Client-project. On the last 5 weeks of the _nology course ,I was part of a team that had to create a content management system created for our client, the Orchestra of the Age of Enlightenment.Trough pair-programming my personal contributions among other things were: creating a form and adding valiadtion to it using react-hook-forms and creating an API (using Java & MySQL) capable of CRUD",
+    },
+    {
+      photo: Project7,
+      text: "A react app that utilises a brewdog API to populate the page with info about each product sold. Each product can be filtered by search or by using the filters individually or together.",
     },
   ];
 
@@ -57,6 +62,7 @@ const Carousel = (props) => {
 
   return (
     <div className="projects" id="projects">
+      <div className="one"></div>
       <div className="carousel">
         <img
           src={leftArrow}
@@ -78,7 +84,7 @@ const Carousel = (props) => {
           className="carousel__arrow carousel__arrow--right"
         />
       </div>
-      <div>
+      <div className="container_text">
         <p className="carousel__text">{imagesArr[counter].text}</p>
       </div>
     </div>

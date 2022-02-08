@@ -6,12 +6,13 @@ h1 {
 
 .skills {
   height: 80vh;
-  width: 80vw;
-  margin: 3rem 1rem;
+  width: 99vw;
+  margin: 4rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   color: $color-secondary;
   border-left: 10px solid $color-secondary;
   border-right: 10px solid $color-primary;
@@ -22,9 +23,14 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     justify-items: center;
-    row-gap: 15vh;
-    column-gap: 1.5rem;
+    row-gap: 8rem;
+    column-gap: 0.5rem;
     font-size: 30px;
+    :hover {
+      border-bottom: 2px solid $color-secondary;
+      color: $color-secondary;
+      border-radius: 25%;
+    }
   }
 }
 

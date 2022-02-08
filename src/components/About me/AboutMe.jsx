@@ -11,11 +11,11 @@ const AboutMe = () => {
           src={picture}
           alt="profilePicture"
         />
-        <div>
-          <p className="about__container--highlighted">Hello! </p>
+        <div className="about__container--highlighted">
+          <h4>Hello!</h4>
           <p>
-            I am Software Developer with a passion for problem-solving,coding
-            and a positive attitude.
+            I am Junior Software Developer with a passion for problem-solving,
+            coding and a positive attitude.
           </p>
           <p>
             I have an Engineering Degree in Environmental Engineering &#38;

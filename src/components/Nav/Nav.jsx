@@ -47,7 +47,7 @@ const Nav = () => {
             </Link>
           </li>
           <li className="nav__content__links__list">
-            <Link className="nav__content__links--link" to="/about">
+            <Link className="nav__content__links--link" to="/AboutMe">
               About me
             </Link>
           </li>
