@@ -14,7 +14,7 @@ const App = () => {
       <Router>
         <Nav />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Alin-React-Portofolio2" element={<Home />} />
           <Route path="/projects" element={<Carousel />} />
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/skills" element={<Skills />} />
