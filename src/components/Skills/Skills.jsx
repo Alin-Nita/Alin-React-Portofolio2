@@ -1,4 +1,21 @@
 import "./Skills.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCoffee,
+  faEnvelope,
+  faDiceSix,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faCss3,
+  faReact,
+  faJava,
+  faGithub,
+  faJs,
+  faAws,
+  faFigma,
+  faHtml5,
+  faSass,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Skills = () => {
   return (
@@ -6,50 +23,15 @@ const Skills = () => {
       <h1>Skills</h1>
 
       <div className="skills__grid">
-        <img
-          src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
-          alt="skill"
-        />
-
-        <img
-          src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
-          alt="skill"
-        />
-
-        <img
-          src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"
-          alt="skill"
-        />
-
-        <img
-          src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-          alt="skill"
-        />
-
-        <img
-          src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
-          alt="skill"
-        />
-
-        <img
-          src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"
-          alt="skill"
-        />
-
-        <img
-          src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"
-          alt="skill"
-        />
-
-        <img
-          src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"
-          alt="skill"
-        />
-
-        <img
-          src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"
-          alt="skill"
-        />
+        <FontAwesomeIcon icon={faAws} />
+        <FontAwesomeIcon icon={faReact} />
+        <FontAwesomeIcon icon={faGithub} />
+        <FontAwesomeIcon icon={faHtml5} />
+        <FontAwesomeIcon icon={faJava} />
+        <FontAwesomeIcon icon={faJs} />
+        <FontAwesomeIcon icon={faCss3} />
+        <FontAwesomeIcon icon={faFigma} />
+        <FontAwesomeIcon icon={faSass} />
       </div>
     </div>
   );

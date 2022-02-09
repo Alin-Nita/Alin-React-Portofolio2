@@ -7,7 +7,6 @@ import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
-import Afternoon from "./components/container/Afternoon";
 
 const App = () => {
   return (
