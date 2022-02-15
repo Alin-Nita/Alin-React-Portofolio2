@@ -33,9 +33,12 @@ const Home = (props) => {
           </h1>
         </header>
         <section className="presentation">
-          <h1 className="presentation__heading"> I'm Alin </h1>
+          <h1 className="presentation__heading">
+            {" "}
+            I'm <span> Alin</span>
+          </h1>
           <h1 className="presentation__subheading">
-            a Junior Full-Stack Developer
+            a <span>Junior Full-Stack Developer</span>
           </h1>
         </section>
       </div>
