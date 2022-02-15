@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Carousel.scss";
-import leftArrow from "../../assets/images/left-arrow.png";
-import rightArrow from "../../assets/images/right-arrow.png";
+import leftArrow from "../../assets/images/left-arrow-egg.png";
+import rightArrow from "../../assets/images/right-arrow-egg.png";
 import Project1 from "../../assets/images/Calculator.png";
 import Project2 from "../../assets/images/Game-cover.png";
 import Project3 from "../../assets/images/Game.png";

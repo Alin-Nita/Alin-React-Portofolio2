@@ -8,6 +8,7 @@ const Morning = () => {
     { name: "Buenos Dias !" },
     { name: "Buona mattina!" },
     { name: "おはようございます!" },
+    { name: "Bună dimineaţa!" },
     { name: "早上好!" },
   ];
 
