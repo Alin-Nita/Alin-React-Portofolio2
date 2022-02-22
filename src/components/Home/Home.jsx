@@ -41,6 +41,7 @@ const Home = (props) => {
             a <span>Junior Full-Stack Developer</span>
           </h1>
         </section>
+        <div className="wave"></div>
       </div>
     </>
   );

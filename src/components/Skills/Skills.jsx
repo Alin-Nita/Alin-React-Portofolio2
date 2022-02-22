@@ -22,11 +22,11 @@ const Skills = () => {
         <div class="cube" id="javascript"></div>
         <div class="cube" id="html"></div>
         <div class="cube" id="css"></div>
-        <div class="cube" id="java"></div>
+        <div class="cube" id="sass"></div>
         <div class="cube" id="aws"></div>
         <div class="cube" id="github"></div>
         <div class="cube" id="figma"></div>
-        <div class="cube" id="sass"></div>
+        <div class="cube" id="java"></div>
 
         {/* //       <FontAwesomeIcon icon={faAws} className="skill__grid__faAws" />
     //       <FontAwesomeIcon icon={faReact} className="skill__grid__faReact" />
