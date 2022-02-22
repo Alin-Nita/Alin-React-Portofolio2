@@ -39,7 +39,7 @@
 
 @media screen and (min-width: 992px) {
   .about {
-    margin-left: 4rem;
+    margin: 4rem 0;
     border-left: 10px solid $color-secondary;
     border-right: 10px solid $color-primary;
     &__container {

@@ -25,11 +25,189 @@ h1 {
     row-gap: 9rem;
     column-gap: 4.5rem;
     font-size: 30px;
-    :hover {
-      border-bottom: 2px solid $color-secondary;
-      color: $color-secondary;
-      border-radius: 25%;
-    }
+  }
+
+  .cube {
+    width: 55px;
+    height: 55px;
+    transform: rotate(-25deg) skew(25deg);
+  }
+
+  .cube:before {
+    position: absolute;
+    content: "";
+    width: 21px;
+    height: 100%;
+    transform: skewY(-45deg);
+    left: -20px;
+    bottom: -10px;
+  }
+
+  .cube:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 21px;
+    transform: skewX(-45deg);
+    left: -10px;
+    bottom: -20px;
+  }
+
+  #html {
+    left: 100px;
+    bottom: 80px;
+    background-image: url("../../assets/images/html-square.png");
+    background-size: cover;
+    background-color: rgb(175, 119, 227);
+    box-shadow: -60px 60px 20px rgb(50 50 50/ 15%);
+  }
+
+  #html:before {
+    background-color: rgb(189, 154, 221);
+  }
+
+  #html:after {
+    background-color: rgb(205, 188, 221);
+  }
+
+  #css {
+    left: 250px;
+    bottom: 240px;
+    background-image: url("../../assets/images/css-square.png");
+    background-size: cover;
+    background-color: rgb(214, 68, 68);
+    box-shadow: -100px 100px 20px rgb(50 50 50/ 15%);
+  }
+
+  #css:before {
+    background-color: rgb(212, 133, 133);
+  }
+
+  #css:after {
+    background-color: rgb(221, 188, 211);
+  }
+
+  #javascript {
+    left: 450px;
+    bottom: 200px;
+    background-image: url("../../assets/images/javascript-square.png");
+    background-size: cover;
+    background-color: rgb(226, 220, 42);
+    box-shadow: -40px 40px 20px rgb(50 50 50/ 15%);
+  }
+
+  #javascript:before {
+    background-color: rgb(197, 211, 50);
+  }
+
+  #javascript:after {
+    background-color: rgb(225, 230, 141);
+  }
+
+  #react {
+    left: 350px;
+    bottom: 40px;
+    background-image: url("../../assets/images/react-square.png");
+    background-size: cover;
+    background-color: rgb(119, 193, 227);
+    box-shadow: -80px 80px 20px rgb(50 50 50/ 15%);
+  }
+
+  #react:before {
+    background-color: rgb(154, 189, 221);
+  }
+
+  #react:after {
+    background-color: rgb(188, 200, 221);
+  }
+
+  #java {
+    left: 5px;
+    bottom: 250px;
+    background-image: url("../../assets/images/Java-square.png");
+    background-size: cover;
+    background-color: rgb(119, 193, 227);
+    box-shadow: -80px 80px 20px rgb(50 50 50/ 15%);
+  }
+
+  #java:before {
+    background-color: rgb(154, 189, 221);
+  }
+
+  #java:after {
+    background-color: rgb(188, 200, 221);
+  }
+
+  #aws {
+    left: 50px;
+    bottom: 150px;
+    background-image: url("../../assets/images/aws-square.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(216, 207, 159);
+    box-shadow: -80px 80px 20px rgb(50 50 50/ 15%);
+  }
+
+  #aws:before {
+    background-color: rgb(206, 197, 175);
+  }
+
+  #aws:after {
+    background-color: rgb(224, 220, 203);
+  }
+
+  #github {
+    left: 50px;
+    bottom: 150px;
+    background-image: url("../../assets/images/github-square.png");
+    background-size: cover;
+    background-color: rgba(224, 231, 238, 0.982);
+    box-shadow: -80px 80px 20px rgb(50 50 50/ 15%);
+  }
+
+  #github:before {
+    background-color: rgba(219, 229, 238, 0.495);
+  }
+
+  #github:after {
+    background-color: rgba(244, 245, 248, 0.87);
+  }
+
+  #figma {
+    left: 50px;
+    bottom: 150px;
+    background-image: url("../../assets/images/figma-square.png");
+    background-size: cover;
+    background-color: rgba(8, 8, 8, 0.982);
+    box-shadow: -80px 80px 20px rgb(50 50 50/ 15%);
+  }
+
+  #figma:before {
+    background-color: rgba(14, 1, 1, 0.995);
+  }
+
+  #figma:after {
+    background-color: rgba(0, 0, 5, 0.728);
+  }
+
+  #sass {
+    left: 250px;
+    bottom: 240px;
+    background-image: url("../../assets/images/sass-square.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(252, 249, 249);
+    box-shadow: -100px 100px 20px rgb(50 50 50/ 15%);
+  }
+
+  #sass:before {
+    background-color: rgba(252, 250, 250, 0.892);
+  }
+
+  #sass:after {
+    background-color: rgba(248, 246, 247, 0.927);
   }
 }
 

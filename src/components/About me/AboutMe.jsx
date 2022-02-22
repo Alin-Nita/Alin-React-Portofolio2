@@ -14,7 +14,7 @@ const AboutMe = () => {
         <div className="about__container--highlighted">
           <h4>Hello!</h4>
           <p>
-            I am Junior Software Developer with a passion for problem-solving,
+            I am a Junior Software Developer with a passion for problem-solving,
             coding and a positive attitude.
           </p>
           <p>
