@@ -18,7 +18,7 @@ h1 {
 
   &__grid {
     display: grid;
-    margin-top: 5rem;
+    margin-top: 4rem;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     justify-items: center;
@@ -125,7 +125,9 @@ h1 {
     left: 5px;
     bottom: 250px;
     background-image: url("../../assets/images/Java-square.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: rgb(119, 193, 227);
     box-shadow: -80px 80px 20px rgb(50 50 50/ 15%);
   }
