@@ -39,18 +39,6 @@ const Skills = () => {
     //       <FontAwesomeIcon icon={faSass} /> */}
       </div>
     </div>
-
-    // <div class="hero-image">
-    //   <div class="cube" id="react"></div>
-    //   <div class="cube" id="javascript"></div>
-    //   <div class="cube" id="html"></div>
-    //   <div class="cube" id="css"></div>
-    //   <div class="cube" id="java"></div>
-    //   <div class="cube" id="aws"></div>
-    //   <div class="cube" id="github"></div>
-    //   <div class="cube" id="figma"></div>
-    //   <div class="cube" id="sass"></div>
-    // </div>
   );
 };
 
