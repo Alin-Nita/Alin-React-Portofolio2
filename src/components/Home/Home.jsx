@@ -40,8 +40,8 @@ const Home = (props) => {
           <h1 className="presentation__subheading">
             a <span>Junior Full-Stack Developer</span>
           </h1>
+          <div className="wave"></div>
         </section>
-        <div className="wave"></div>
       </div>
     </>
   );
